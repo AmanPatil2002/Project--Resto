@@ -1,0 +1,1048 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    background-color: rgba(255, 234, 207, 0.932);
+}
+.container{
+    background-color: white;
+    margin: 25px;
+} 
+/*________________________________________________________navbar start________________________________________________________*/
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85px;
+}
+.bars{
+    margin-left: 30px;
+}
+.bars a i{
+    color: rgb(45, 44, 44);
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-right: 15px;
+    text-shadow: 1px 1px 2px black;
+}
+.bars a i:hover{
+    color: orangered;
+}
+.navbar-ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 5%;
+}
+.navbar-ul li{
+    padding-top: 25px;
+    padding: 10px;
+}
+.navbar-ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.navbar-ul li a:hover{
+    color: red;
+}
+.dropdown-content{
+    display: none;
+}
+#Resto{
+    padding-top: 5px;
+    padding-left: 6px;
+}
+.search{
+    margin-left: 20%;
+    padding: 15px;
+}
+.search a{
+    color: rgb(45, 44, 44);
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+.search a:hover{
+    color: orangered;
+}
+/*________________________________________________________navbar ends________________________________________________________*/
+/*________________________________________________________home start________________________________________________________*/
+.home{
+    width: 90%;
+    display: flex;
+    height: 750px;
+    margin: 10px;
+}
+#home1{
+    width: 48%;
+    background-color: white;
+    padding-top: 3%;
+}
+#home1 h1{
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+.home-button{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+.home-button h3{
+    background-color: orangered;
+    border-radius: 50px;
+    padding: 16px;
+    text-align: center;
+}
+.home-button h3 a{
+    text-decoration: none;
+    padding-top: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-button h3:hover{
+    background-color: rgb(70, 67, 67);
+    border: 1px solid orangered;
+}
+.home-button p{
+    margin-left: 20px;
+    padding: 5px;
+}
+.home-button p a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.home-button p a:hover{
+    color: orangered;
+}
+.home-button p a i{
+    font-size: 50px;
+    padding: 5px;
+}
+.home-info{
+    padding-top: 5%;
+    display: flex;
+    margin: 20px;
+}
+.home-info hr{
+    color: gray;
+}
+.info{
+    padding: 15px;
+    text-align: center;
+}
+.info i{
+    font-size: 30px;
+    padding: 15px;
+}
+.info p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-img{
+    background-image: url("../img/hero-1.jpg");
+    background-size: cover;
+    width: 60%;
+    height: 80%;
+    margin-right: -15%;
+    background-repeat: no-repeat;
+}
+.move{
+    margin-top: 59%;
+    margin-left: 62%;
+    background-color: white;
+    width: 300px;
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.move hr{
+    opacity: 30%;
+}
+.move h3{
+    font-size: 60px;
+    font-weight: 100;
+    align-items: center;
+    text-align: center;
+    opacity: 80%;
+}
+.move h3 i{
+    color: rgb(180, 178, 178);
+}
+.move h3 i:hover{
+    color: black;
+}
+.front,.back{
+    padding: 40px;
+}
+/*________________________________________________________home ends________________________________________________________*/
+/*________________________________________________________about start________________________________________________________*/
+.about{
+    height: 800px;
+    display: flex;
+    padding-bottom: 80px;
+}
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    margin: 10px;
+    width: 80%;
+    height: 700px;
+    box-shadow: 2px 1px 2px black;
+}
+.aboutUs{
+    background-color: white;
+    padding-top: 5px;
+    width: 50%;
+    padding: 10px;
+}
+.aboutUs h5{
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+}
+.aboutUs h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    font-weight: 200;
+}
+.aboutUs p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.aboutUs h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 10px;
+    font-weight: 200;
+}
+#recipe{
+    display: flex;
+}
+.rec1{
+    width: 32%;
+    padding: 10px;
+    transition: transform, 2s;
+}
+.rec1:hover{
+    transform: scale(1.1,1.1);
+}
+.rec1 img{
+    width: 200px;
+    height: 220px;
+}
+.rec1 p{
+    color: orangered;
+    font-size: 16px;
+}
+/*________________________________________________________about ends________________________________________________________*/
+/*________________________________________________________dish starts________________________________________________________*/
+.dish{
+    height: 1480px;
+    padding: 30px;
+    background-color: rgb(237, 233, 233);
+}
+.dish h5{
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 100;
+}
+.dish h3{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+.dish1.dish2{
+    display: flex;
+    padding-left: 1px;
+}
+.dis1-info,.dis2-info{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 2%;
+}
+.dis1-info h1{
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.info1{
+    margin-left: 80px;
+    margin-top: 4%;
+    width: 50%;
+}
+.info1 hr{
+    width: 40%;
+    height: 5px;
+    background-color: black;
+}
+.info1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    padding-top: 30px;
+    padding: 20px;
+    padding-bottom: 25px;
+}
+.info1 h2 span{
+    color: orangered;
+}
+.info1 p{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.info1 h4 a{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin: 3%;
+}
+.info1 h4 a:hover{
+    background-color: gainsboro;
+    border: 1px solid orangered;
+    color: black;
+}
+.dish1-img img{
+    margin: 30px;
+    margin-left: 25%;
+    box-shadow: 2px 1px 2px black;
+}
+.dish1-img,.dish2-img{
+    transition: transform,2s;
+}
+.dish1-img:hover,.dish2-img:hover{
+    transform: rotateY(-45deg);  
+}
+.dish2-img img{
+    margin: 30px;
+    box-shadow: 2px 1px 2px black;
+}
+.dis2-info h1{
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+/*________________________________________________________dish ends________________________________________________________*/
+/*________________________________________________________menu starts________________________________________________________*/
+.menu{
+    width: 100%;
+    height: 730px;
+}
+.menu h5{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 100;
+}
+.menu h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+.menu-div{
+    width: 95%;
+}
+.div-breakfast{
+    margin-left: -10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-breakfast1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div-breakfast1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 100px;
+    text-align: center;
+    padding: 25px;
+}
+.div-breakfast1 .div1{
+    border-bottom: 4px dashed gray;
+    width: 140%;
+    height: 100px;
+    margin: 20px;
+}
+.div1 img{
+    border-radius: 50%;
+    width: 22%;
+}
+.div1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: -18%;
+}
+.div1 h3 span{
+    color: gray;
+    padding-left: 50px;
+    
+}
+.div1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 35%;
+    padding-top: 10px;
+}
+/*________________________________________________________menu ends________________________________________________________*/
+/*________________________________________________________customer starts________________________________________________________*/
+.customer{
+    background-image: url("../img/testi-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.transparent{
+    background-color: rgba(90, 90, 90, 0.34);
+    height: 600px;
+    opacity: 80%;
+    overflow: hidden;
+}
+.customer h5{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: orangered;
+}
+.customer h2{
+    padding-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 400px;
+}
+.customer h1{
+    padding-top: 1%;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-weight: 400;
+}
+.customer p{
+    padding-top: 1%;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 60;
+    font-style: italic;
+}
+.customer h3{
+    padding-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 400px;
+}
+.customer h4{
+    padding-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+.customer h4 span{
+    color: orangered;
+}
+#cir{
+    padding-top: 40px;
+}
+/*________________________________________________________customer ends________________________________________________________*/
+/*________________________________________________________team starts________________________________________________________*/
+.team{
+    width: 100%;
+    height: 780px;
+}
+.team h5{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: orangered;
+}
+.team h2{
+    padding-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400px;
+}
+.team-class{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.class{
+    width: 25%;
+    background-color: white;
+    height: 500px;
+    transition: transform, 2s;
+}
+#team1{
+    background-image: url("../img/chef-1.jpg");
+    background-size: cover;
+}
+#team2{
+    background-image: url("../img/chef-2.jpg");
+    background-size: cover;
+}
+#team3{
+    background-image: url("../img/chef-3.jpg");
+    background-size: cover;
+}
+.team-info{
+    background-color: white;
+    width: 80%;
+    padding: 18px;
+    margin-left: 30px;
+    margin-top: 110%;
+}
+.team-info h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 10px;
+}
+.team-info p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 10px;
+}
+.class:hover{
+    transform: scale(1.1,1.1);
+}
+/*________________________________________________________team ends________________________________________________________*/
+/*________________________________________________________book starts________________________________________________________*/
+.book{
+    background-image: url("../img/reservation-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+}
+.book-form{
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    height: 600px;
+    box-shadow: 1px 1px 2px black;
+}
+.book-form h5{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: orangered;
+}
+.book-form h2{
+    padding-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400px;
+}
+.book-form
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select,
+textarea{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+}
+input[type="date"],
+input[type="time"]{
+    width: 42%;
+}
+input[type="submit"]{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    border-radius: 50px;
+    margin-left: 30%;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+/*________________________________________________________book ends________________________________________________________*/
+/*________________________________________________________footer starts________________________________________________________*/
+.footer{
+    padding-top: 2%;
+    width: 100%;
+    height: 480px;
+}
+.footer-info{
+    display: flex;
+    padding: 30px;
+}
+.footer1,.footer2,.footer3{
+    width: 35%;
+    padding: 30px;
+}
+.footer1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 10px;
+    color: gray;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+}
+.icons a:hover{
+    color: orangered;
+}
+.footer2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    font-size: 25px;
+    padding: 10px;
+}
+.footer-table{
+    display: flex;
+}
+.days,.time{
+    list-style-type: none;
+    padding: 20px;
+}
+.days li,.time li{
+    padding: 3px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    font-size: 25px;
+    padding: 10px;
+}
+.footer3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 10px;
+    color: gray;
+}
+.footer3 input[type="submit"]{
+    margin-left: 20px;
+    width: 85%;
+}
+.footer-copy h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: gray;
+}
+.footer-copy h3 a{
+    text-decoration: none;
+    color: orangered;
+}
+/*________________________________________________________footer ends________________________________________________________*/
+
+@media (max-width:768px){
+    .navbar-ul li{
+        display: none;
+    }
+    #Resto{
+        margin-left: 20%;
+    }
+    #home1 h1{
+        font-size: 45px;
+    }
+    .home-button{
+        padding: 5px;
+        margin: 10px;
+    }
+    .home-button p a i{
+        font-size: 25px;
+    }
+    .home-button h3 a{
+        margin-top: 10px;
+    }
+    .info p{
+        font-size: 20px;
+    }
+    .home-button p a{
+        font-size: 25px;
+    }
+    .move{
+        margin-top: 120%;
+        margin-left: 55%;
+        width: 200px;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .move h3{
+        font-size: 30px;
+    }
+    .rec1 img{
+        width: 110px;
+        height: 130px;
+    }
+    .dish{
+        padding: 5px;
+    }
+    .dish1.dish2{
+        margin-left: -10%;
+        padding-top: 20px;
+    }
+    .info1{
+        margin: 20px;
+    }
+    .info1 h2{
+        font-size: 30px;
+    }
+    .dish1-img img{
+        margin: 10px;
+        margin-left: 1%;
+    }
+    .dish2-img img{
+        margin: 5px;
+        width: 400px;
+    }
+    .div-breakfast{
+        margin-left: -1%;
+    }
+    .div-breakfast1 h2{
+        margin-left: 100px;
+        text-align: right;
+    }
+    .div-breakfast1 .div1{
+        width: 80%;
+        height: 100px;
+        margin: 20px;
+    }
+    .div1 h3{
+        font-size: 16px;
+        margin-left: 19%;
+        margin-top: -18%;
+    }
+    .div1 h3 span{
+        padding-left: 20px;
+    }
+    .customer h5{
+        font-size: 20px;
+    }
+    .team h5{
+        padding-top: 8%;
+    }
+    .team-class{
+        padding: 5px;
+        padding-top: 50px;
+    }
+    .class{
+        width: 30%;
+        height: 500px;
+    }
+    .team-info{
+        margin-top: 160%;
+    }
+    .book-form{
+        width: 48%;
+        padding: 20px;
+    }
+    .footer{
+        padding-top: 5%;
+    }
+    .footer1,.footer2,.footer3{
+        width: 40%;
+        padding: 5px;
+    }
+    .footer1 p{
+        font-size: 16px;
+    }
+    .days,.time{
+        padding: 10px;
+    }
+    .footer3 p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:428px){
+    .bars{
+        margin-left: 5px;
+    }
+    #Resto img{
+        width: 80px;
+        height: 50px;
+        margin-left: -26px;
+    }
+    .search{
+        margin-left: 5%;
+    }
+    .home{
+        width: 95%;
+        height: 850px;
+        margin: 10px;
+    }
+    .home{
+        flex-direction: column;
+    }
+    #home1{
+        width: 80%;
+        background-color: white;
+        padding-top: 3%;
+    }
+    #home1 h1{
+        padding-top: 5%;
+        font-size: 30px;
+    }
+    .home-button h3{
+        padding: 10px;
+    }
+    .home-button p a i{
+        font-size: 20px;
+    }
+    .home-img{
+        width: 100%;
+        height: 40%;
+    }
+    .move{
+        margin-top: 80%;
+        margin-left: 40%;
+        width: 200px;
+        height: 80px;
+    }
+    .move h3{
+        font-size: 25px;
+    }
+    .about{
+        height: 1050px;
+        flex-direction: column;
+    }
+    .about-img{
+        width: 92%;
+    }
+    .about-img img{
+        width: 100%;
+        height: 500px;
+    }
+    .aboutUs{
+        width: 100%;
+        padding: 10px;
+    }
+    .aboutUs h2{
+        font-size: 30px;
+    }
+    .aboutUs p{
+        font-size: 16px;
+    }
+    .rec1{
+        width: 30%;
+    }
+    .rec1 img{
+        width: 90px;
+        height: 90px;
+    }
+    .dish{
+        height: 1850px;
+    }
+    .dish h3{
+        font-size: 28px;
+    }
+    .dis1-info,.dis2-info{
+        flex-direction: column;
+    }
+    .dis1-info h1{
+        font-size: 30px;
+    }
+    .info1{
+        width: 90%;
+    }
+    .info1 hr{
+        width: 80%;
+    }
+    .info1 h2{
+        font-size: 30px;
+        padding: 15px;
+    }
+    .info1 p{
+        font-size: 14px;
+    }
+    .info1 h4 a{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .dish1-img img{
+        margin: 10px;
+        margin-left: 10px;
+        width: 90%;
+        height: 50%;
+    }
+    .dish2-img img{
+        margin: 10px;
+        margin-left: 10px;
+        width: 90%;
+        height: 50%;
+    }
+    .dis2-info h1{
+        font-size: 30px;
+    }
+    .menu{
+        height: 1650px;
+    }
+    .div-breakfast{
+        flex-direction: column;
+        margin: 5px;
+    }
+    .BT{
+        margin-right: 15%;
+        padding-right: 20%;
+    }
+    .customer{
+        background-size: cover;
+       width: 100%;
+        height: 400px;
+    }
+    .transparent{
+        height: 400px;
+    }
+    .customer h5{
+        padding-top: 3%;
+        font-size: 16px;
+    }
+    .customer h2{
+        padding-top: 5px;
+        font-size: 25px;
+    }
+    .customer h1{
+        font-size: 40px;
+    }
+    .customer p{
+        padding-top: 1%;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 16px;
+    }
+    .team{
+        height: 1400px;
+    }
+    .team-class{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .class{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 15px;
+    }
+    .team-info{
+        margin-top: 90%;
+    }
+    .book{
+        width: 100%;
+        height: 450px;
+    }
+    .book-form{
+        width: 85%;
+        padding: 10px;
+        height: 560px;
+        margin-top: -10%;
+    }
+    .book-form h5{
+        padding-top: 3%;
+        font-size: 16px;
+    }
+    .book-form h2{
+        font-size: 30px;
+    }
+    input[type="date"],
+    input[type="time"]{
+    width: 40%;
+    }
+    input[type="submit"]{
+        width: 40%;
+    }
+    .footer{
+        padding-top: 60%;
+        width: 100%;
+        height: 990px;
+    }
+    .footer-info{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer1,.footer2,.footer3{
+        width: 100%;
+        padding: 1px;
+    }
+    .footer-copy h3{
+        padding-top: 20px;
+        font-size: 14px;
+    }
+}
